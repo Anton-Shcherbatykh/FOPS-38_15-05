@@ -6,7 +6,7 @@ services:
   web:
     build:
       context: .
-      dockerfile: dockerfile.python
+      dockerfile: Dockerfile.python
     environment:
       - DB_HOST=db
       - DB_USER=${MYSQL_USER}
